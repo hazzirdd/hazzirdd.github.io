@@ -60,7 +60,7 @@ body {
 .about-me {
     background-image: url('Hayden Portrait (1).jpg');
     width: 100%;
-    height: 900px;
+    height: 1122px;
     background-repeat: no-repeat;
     background-size: contain;
     /* filter:blur(2px) */
@@ -199,7 +199,7 @@ body {
 .skills-container {
     background-image: url('Hayden Fishing from Back (1).jpg');
     width: 100%;
-    height: 900px;
+    height: 1122px;
     background-repeat: no-repeat;
     background-size: contain;
     filter:blur(2px)grayscale(97%);
