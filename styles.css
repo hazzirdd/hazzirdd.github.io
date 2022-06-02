@@ -199,7 +199,7 @@ body {
     position: absolute;
     right: 57px;
     top: 169px;
-    padding: 13px;
+    padding: 14px;
 }
 @media (max-width:768px) {
     .project-container p {
