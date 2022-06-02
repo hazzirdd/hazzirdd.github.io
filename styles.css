@@ -197,8 +197,9 @@ body {
     border: 1px solid white;
     justify-content: center;
     position: absolute;
-    right: 85px;
+    right: 57px;
     top: 169px;
+    padding: 13px;
 }
 @media (max-width:768px) {
     .project-container p {
