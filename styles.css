@@ -118,11 +118,18 @@ body {
 
 }
 
+.summary-container-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .summary-container {
     align-items: center;
     text-align: center;
     padding-left:50px;
     padding-right:50px;
+    width: 70%;
     background-color:rgb(43, 43, 43);
     border: 2px solid rgb(75, 75, 75);
     border-radius: 10px;
