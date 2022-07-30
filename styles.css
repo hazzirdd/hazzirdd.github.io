@@ -212,8 +212,9 @@
     height: auto;
     width: 800px;
     text-align: center;
-    font-size: 40px;
-    color:rgb(131 128 157);
+    font-size: 30px;
+    color: rgb(131 128 157);
+    padding: 50px;
   }
 
   .title {
@@ -227,6 +228,7 @@
     color:rgb(69 73 90);
     font-size: 35px;
     text-align: center;
+    font-family: cursive;
   }
 
 /* STACK */
@@ -284,6 +286,7 @@
     width: 800px;
     padding: 50px;
     font-size: 18px;
+    font-family: cursive;
 }
 
 /* CONTACT */
