@@ -3,7 +3,7 @@
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 25; /* Stay on top */
     top: 0;
     left: 0;
     background-color: #111; /* Black*/
@@ -55,6 +55,7 @@
   #main {
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
+    z-index: 4;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -162,12 +163,12 @@
 
   body {
     margin: 0;
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(249,248,246);
   }
 
   .top-of-page {
     position: relative;
-    background-image: url("Hayden Portrait (1).jpg");
+    background-image: url("photos/hayden_portrait_whitebackground.jpeg");
     width: 100%;
     height: 1123px;
     background-size: contain;
@@ -176,13 +177,25 @@
 
   .top-of-page-copy {
     position: absolute;
-    background-image: url("portfolio_portrait_nobackground.png");
+    background-image: url(photos/portfolio_portrait_nobackground.png);
     width: 100%;
     height: 1123px;
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 5;
+    z-index: 0;
+    top: 4px;
+    filter: blur(4px);
   }
+
+  /* .top-of-page-copy {
+    position: absolute;
+    width: 500px;
+    height: 681px;
+    z-index: 1;
+    object-fit: cover;
+    object-position: right;
+    right: 0;
+} */
 
   .center-content {
     display: flex;
@@ -195,22 +208,23 @@
   }
 
   .about-section {
-    border: 1px solid  rgb(26, 148, 230);
+    border: 9px double rgb(26, 148, 230);
     height: auto;
     width: 800px;
     text-align: center;
     font-size: 40px;
-    color:rgb(255, 255, 255);
+    color:rgb(131 128 157);
   }
 
   .title {
-    color:rgb(255, 255, 255);
+    color:rgb(69 73 90);
     font-size: 50px;
     text-align: center;
+    font-family: cursive;
   }
 
   .small-title {
-    color:rgb(255, 255, 255);
+    color:rgb(69 73 90);
     font-size: 35px;
     text-align: center;
   }
@@ -234,7 +248,7 @@
 
 .stack-text {
     text-align: center;
-    color: white;
+    color: rgb(131 128 157);
 }
 
 /* PROJECTS */
@@ -247,9 +261,9 @@
 }
 
 .project-link {
-    color: white;
-    border-left: 3px solid white;
-    border-right: 3px solid white;
+    color: rgb(131 128 157);
+    border-left: 3px solid rgb(26, 148, 230);
+    border-right: 3px solid rgb(26, 148, 230);
     padding: 8px;
 }
 
@@ -264,9 +278,9 @@
 }
 
 .project-details {
-    color:white;
+    color:rgb(131 128 157);
     justify-content: center;
-    border: 3px solid white;
+    border: 9px double rgb(26, 148, 230);
     width: 800px;
     padding: 50px;
     font-size: 18px;
@@ -274,7 +288,7 @@
 
 /* CONTACT */
 .contacts-container {
-  color:white;
+  color:rgb(131 128 157);
   display: flex;
   justify-content: space-around;
 }
@@ -288,7 +302,7 @@
 
 .link {
   text-decoration: none;
-  color: white;
+  color: rgb(131 128 157);
   padding-left: 10px;
 }
 

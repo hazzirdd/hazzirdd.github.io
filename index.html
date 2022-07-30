@@ -21,14 +21,14 @@
         <div class="top-of-page">
             <div id="main">
                 <button class="openbtn" onclick="openNav()">&#9776;</button>
-                <div class="main-title-container">
-                    <h1 class="main-title">My name is <span style="text-shadow: 1px 1px rgb(0, 0, 0);color:rgb(26, 148, 230);">Hayden Sweet.</span><br><br>And I am a <span style="text-shadow: 1px 1px rgb(0, 0, 0);color:rgb(26, 148, 230)">Software Engineer</span></h1>
-                </div>
+            </div>
+            <div class="main-title-container">
+                <h1 id="main-title" class="main-title">My name is <span style="text-shadow: 1px 1px rgb(0, 0, 0);color:rgb(26, 148, 230);">Hayden Sweet.</span><br><br>And I am a <span style="text-shadow: 1px 1px rgb(0, 0, 0);color:rgb(26, 148, 230)">Software Engineer</span></h1>
             </div>
         </div>
         
     <div class="about-section-container">
-        <h2  id="about-me" class="title">Who Am I?</h2>
+        <h2  id="about-me" class="title">— Who Am I? —</h2>
         <div class="center-content">
             <div class="about-section">
                 <p>I'm a writer, a woodworker, movie lover and a board game enthusiast! I never let a feeling of Inspiration go to waste, I am always looking forward to my next project to tackle to use that inspiration towards.</p>
@@ -37,7 +37,7 @@
     </div>
         
     <div id="stack" class="stack-section-container">
-        <h2 class="title">My Stack</h2>
+        <h2 class="title">— My Stack —</h2>
         <div class="stack-images">
             <a>
                 <img class="stack-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png">
@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    <h2 id="projects" class="title">My Projects</h2>
+    <h2 id="projects" class="title">— My Projects —</h2>
     <h4 class="small-title">GameNight</h4>
     <div class="center-content">
         <ul class="project-links" >
@@ -110,37 +110,37 @@
             <div class="slideshow-container">
                 <div class="mySlides fade">
             <div class="numbertext">1 / 6</div>
-              <img src="gamenight-tabletop (1).png" style="width:100%;border:3px solid  rgb(26, 148, 230)">
+              <img src="photos/gamenight-tabletop (1).png" style="width:100%;border:3px solid  rgb(26, 148, 230)">
               <div class="text">Caption Text</div>
             </div>
             
             <div class="mySlides fade">
               <div class="numbertext">2 / 6</div>
-              <img src="gamenight-gamelist.PNG" style="width:100%;border:3px solid  rgb(26, 148, 230)">
+              <img src="photos/gamenight-gamelist.PNG" style="width:100%;border:3px solid  rgb(26, 148, 230)">
               <div class="text">Caption Two</div>
             </div>
             
             <div class="mySlides fade">
               <div class="numbertext">3 / 6</div>
-              <img src="gamenight-requests.PNG" style="width:100%;border:3px solid rgb(26, 148, 230)">
+              <img src="photos/gamenight-requests.PNG" style="width:100%;border:3px solid rgb(26, 148, 230)">
               <div class="text">Caption Three</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">4 / 6</div>
-                <img src="runner_img1.PNG" style="width:100%;border:3px solid blue">
+                <img src="photos/runner_img1.PNG" style="width:100%;border:3px solid blue">
                 <div class="text">Caption 4</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">5 / 6</div>
-                <img src="runner_img2.PNG" style="width:100%;border:3px solid blue">
+                <img src="photos/runner_img2.PNG" style="width:100%;border:3px solid blue">
                 <div class="text">Caption 4</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">6 / 6</div>
-                <img src="runner_img3.PNG" style="width:100%;border:3px solid blue">
+                <img src="photos/runner_img3.PNG" style="width:100%;border:3px solid blue">
                 <div class="text">Caption 4</div>
             </div>
             
@@ -161,7 +161,7 @@
     </div>
     
     <div class="stack-section-container">
-    <h2 id="contact" class="title">Get In Touch</h2>
+    <h2 id="contact" class="title">— Get In Touch —</h2>
     <div class="contacts-container">
         <div class="contacts">
             <img class="contact-icon" src="https://www.freeiconspng.com/uploads/phone-png-3.png">
@@ -182,14 +182,14 @@
         function openNav() {
           document.getElementById("mySidebar").style.width = "250px";
           document.getElementById("main").style.marginLeft = "250px";
+          document.getElementById("main-title").style.marginLeft = "250px";
         }
         
         function closeNav() {
           document.getElementById("mySidebar").style.width = "0";
           document.getElementById("main").style.marginLeft= "0";
+          document.getElementById("main-title").style.marginLeft = "0";
         }
-
-
 
 
         let slideIndex = 1;
